@@ -1,0 +1,13 @@
+name = "Liquibase YAML"
+grammar = "yaml"
+path_suffixes = ["changelog.yaml", "changelog.yml", "changelog-master.yaml", "changelog-master.yml", "changelog-root.yaml", "changelog-root.yml"]
+line_comments = ["# "]
+autoclose_before = ",]}"
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "\"", end = "\"", close = true, newline = false, not_in = ["string"] },
+    { start = "'", end = "'", close = true, newline = false, not_in = ["string"] },
+]
+tab_size = 2
+prettier_parser_name = "yaml"

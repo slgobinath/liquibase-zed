@@ -1,0 +1,1257 @@
+{
+ "addAutoIncrement": {
+  "attrs": [
+   "catalogName",
+   "columnDataType",
+   "columnName",
+   "defaultOnNull",
+   "generationType",
+   "incrementBy",
+   "schemaName",
+   "startWith",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "addColumn": {
+  "attrs": [
+   "catalogName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [
+   "column"
+  ],
+  "open": false
+ },
+ "addDefaultValue": {
+  "attrs": [
+   "catalogName",
+   "columnDataType",
+   "columnName",
+   "defaultValue",
+   "defaultValueBoolean",
+   "defaultValueComputed",
+   "defaultValueConstraintName",
+   "defaultValueDate",
+   "defaultValueNumeric",
+   "defaultValueSequenceNext",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "addForeignKeyConstraint": {
+  "attrs": [
+   "baseColumnNames",
+   "baseTableCatalogName",
+   "baseTableName",
+   "baseTableSchemaName",
+   "constraintName",
+   "deferrable",
+   "deleteCascade",
+   "initiallyDeferred",
+   "onDelete",
+   "onUpdate",
+   "referencedColumnNames",
+   "referencedTableCatalogName",
+   "referencedTableName",
+   "referencedTableSchemaName",
+   "referencesUniqueColumn",
+   "validate"
+  ],
+  "children": [],
+  "open": false
+ },
+ "addLookupTable": {
+  "attrs": [
+   "constraintName",
+   "existingColumnName",
+   "existingTableCatalogName",
+   "existingTableName",
+   "existingTableSchemaName",
+   "newColumnDataType",
+   "newColumnName",
+   "newTableCatalogName",
+   "newTableName",
+   "newTableSchemaName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "addNotNullConstraint": {
+  "attrs": [
+   "catalogName",
+   "columnDataType",
+   "columnName",
+   "constraintName",
+   "defaultNullValue",
+   "schemaName",
+   "tableName",
+   "validate"
+  ],
+  "children": [],
+  "open": false
+ },
+ "addPrimaryKey": {
+  "attrs": [
+   "catalogName",
+   "clustered",
+   "columnNames",
+   "constraintName",
+   "forIndexCatalogName",
+   "forIndexName",
+   "forIndexSchemaName",
+   "schemaName",
+   "tableName",
+   "tablespace",
+   "validate"
+  ],
+  "children": [],
+  "open": true
+ },
+ "addUniqueConstraint": {
+  "attrs": [
+   "catalogName",
+   "clustered",
+   "columnNames",
+   "constraintName",
+   "deferrable",
+   "disabled",
+   "forIndexCatalogName",
+   "forIndexName",
+   "forIndexSchemaName",
+   "initiallyDeferred",
+   "schemaName",
+   "tableName",
+   "tablespace",
+   "validate"
+  ],
+  "children": [],
+  "open": true
+ },
+ "alterSequence": {
+  "attrs": [
+   "cacheSize",
+   "catalogName",
+   "cycle",
+   "dataType",
+   "incrementBy",
+   "maxValue",
+   "minValue",
+   "ordered",
+   "schemaName",
+   "sequenceName",
+   "startValue"
+  ],
+  "children": [],
+  "open": true
+ },
+ "and": {
+  "attrs": [],
+  "children": [
+   "and",
+   "changeLogPropertyDefined",
+   "changeSetExecuted",
+   "columnExists",
+   "customPrecondition",
+   "dbms",
+   "expectedQuotingStrategy",
+   "foreignKeyConstraintExists",
+   "indexExists",
+   "not",
+   "or",
+   "primaryKeyExists",
+   "rowCount",
+   "runningAs",
+   "sequenceExists",
+   "sqlCheck",
+   "tableExists",
+   "tableIsEmpty",
+   "uniqueConstraintExists",
+   "viewExists"
+  ],
+  "open": true
+ },
+ "append": {
+  "attrs": [
+   "value"
+  ],
+  "children": [],
+  "open": false
+ },
+ "arg": {
+  "attrs": [
+   "value"
+  ],
+  "children": [],
+  "open": false
+ },
+ "changeLogPropertyDefined": {
+  "attrs": [
+   "property",
+   "value"
+  ],
+  "children": [],
+  "open": false
+ },
+ "changeSet": {
+  "attrs": [
+   "author",
+   "context",
+   "contextFilter",
+   "created",
+   "dbms",
+   "failOnError",
+   "id",
+   "ignore",
+   "labels",
+   "logicalFilePath",
+   "objectQuotingStrategy",
+   "onValidationFail",
+   "runAlways",
+   "runInTransaction",
+   "runOnChange",
+   "runOrder",
+   "runWith",
+   "runWithSpoolFile"
+  ],
+  "children": [
+   "addAutoIncrement",
+   "addColumn",
+   "addDefaultValue",
+   "addForeignKeyConstraint",
+   "addLookupTable",
+   "addNotNullConstraint",
+   "addPrimaryKey",
+   "addUniqueConstraint",
+   "alterSequence",
+   "comment",
+   "createIndex",
+   "createProcedure",
+   "createSequence",
+   "createTable",
+   "createView",
+   "customChange",
+   "delete",
+   "dropAllForeignKeyConstraints",
+   "dropColumn",
+   "dropDefaultValue",
+   "dropForeignKeyConstraint",
+   "dropIndex",
+   "dropNotNullConstraint",
+   "dropPrimaryKey",
+   "dropProcedure",
+   "dropSequence",
+   "dropTable",
+   "dropUniqueConstraint",
+   "dropView",
+   "empty",
+   "executeCommand",
+   "insert",
+   "loadData",
+   "loadUpdateData",
+   "mergeColumns",
+   "modifyDataType",
+   "modifySql",
+   "output",
+   "preConditions",
+   "renameColumn",
+   "renameSequence",
+   "renameTable",
+   "renameView",
+   "rollback",
+   "setColumnRemarks",
+   "setTableRemarks",
+   "sql",
+   "sqlFile",
+   "stop",
+   "tagDatabase",
+   "update",
+   "validCheckSum"
+  ],
+  "open": true
+ },
+ "changeSetExecuted": {
+  "attrs": [
+   "author",
+   "changeLogFile",
+   "id"
+  ],
+  "children": [],
+  "open": false
+ },
+ "column": {
+  "attrs": [
+   "afterColumn",
+   "allowUpdate",
+   "autoIncrement",
+   "beforeColumn",
+   "computed",
+   "defaultOnNull",
+   "defaultValue",
+   "defaultValueBoolean",
+   "defaultValueComputed",
+   "defaultValueConstraintName",
+   "defaultValueDate",
+   "defaultValueNumeric",
+   "defaultValueSequenceCurrent",
+   "defaultValueSequenceNext",
+   "descending",
+   "encoding",
+   "generationType",
+   "header",
+   "included",
+   "incrementBy",
+   "index",
+   "name",
+   "nullPlaceholder",
+   "position",
+   "remarks",
+   "startWith",
+   "type",
+   "value",
+   "valueBlobFile",
+   "valueBoolean",
+   "valueClobFile",
+   "valueComputed",
+   "valueDate",
+   "valueNumeric",
+   "valueSequenceCurrent",
+   "valueSequenceNext"
+  ],
+  "children": [
+   "constraints"
+  ],
+  "open": true
+ },
+ "columnExists": {
+  "attrs": [
+   "catalogName",
+   "columnName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "comment": {
+  "attrs": [],
+  "children": [],
+  "open": false
+ },
+ "constraints": {
+  "attrs": [
+   "checkConstraint",
+   "deferrable",
+   "deleteCascade",
+   "foreignKeyName",
+   "initiallyDeferred",
+   "notNullConstraintName",
+   "nullable",
+   "primaryKey",
+   "primaryKeyName",
+   "primaryKeyTablespace",
+   "referencedColumnNames",
+   "referencedTableCatalogName",
+   "referencedTableName",
+   "referencedTableSchemaName",
+   "references",
+   "unique",
+   "uniqueConstraintName",
+   "validateForeignKey",
+   "validateNullable",
+   "validatePrimaryKey",
+   "validateUnique"
+  ],
+  "children": [],
+  "open": false
+ },
+ "createIndex": {
+  "attrs": [
+   "associatedWith",
+   "catalogName",
+   "clustered",
+   "indexName",
+   "schemaName",
+   "tableName",
+   "tablespace",
+   "unique",
+   "using"
+  ],
+  "children": [
+   "column"
+  ],
+  "open": true
+ },
+ "createProcedure": {
+  "attrs": [
+   "catalogName",
+   "dbms",
+   "encoding",
+   "path",
+   "procedureName",
+   "relativeToChangelogFile",
+   "replaceIfExists",
+   "schemaName"
+  ],
+  "children": [
+   "comment"
+  ],
+  "open": false
+ },
+ "createSequence": {
+  "attrs": [
+   "cacheSize",
+   "catalogName",
+   "cycle",
+   "dataType",
+   "incrementBy",
+   "maxValue",
+   "minValue",
+   "ordered",
+   "schemaName",
+   "sequenceName",
+   "startValue"
+  ],
+  "children": [],
+  "open": true
+ },
+ "createTable": {
+  "attrs": [
+   "catalogName",
+   "ifNotExists",
+   "partitionBy",
+   "remarks",
+   "rowDependencies",
+   "schemaName",
+   "tableName",
+   "tableType",
+   "tablespace"
+  ],
+  "children": [
+   "column"
+  ],
+  "open": true
+ },
+ "createView": {
+  "attrs": [
+   "catalogName",
+   "encoding",
+   "fullDefinition",
+   "path",
+   "relativeToChangelogFile",
+   "remarks",
+   "replaceIfExists",
+   "schemaName",
+   "viewName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "customChange": {
+  "attrs": [
+   "class"
+  ],
+  "children": [
+   "param"
+  ],
+  "open": false
+ },
+ "customPrecondition": {
+  "attrs": [
+   "className"
+  ],
+  "children": [
+   "param"
+  ],
+  "open": false
+ },
+ "databaseChangeLog": {
+  "attrs": [
+   "changeLogId",
+   "context",
+   "contextFilter",
+   "logicalFilePath",
+   "objectQuotingStrategy"
+  ],
+  "children": [
+   "changeSet",
+   "include",
+   "includeAll",
+   "modifyChangeSets",
+   "preConditions",
+   "property",
+   "removeChangeSetProperty"
+  ],
+  "open": false
+ },
+ "dbms": {
+  "attrs": [
+   "type"
+  ],
+  "children": [],
+  "open": false
+ },
+ "delete": {
+  "attrs": [
+   "catalogName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [
+   "where",
+   "whereParams"
+  ],
+  "open": false
+ },
+ "dropAllForeignKeyConstraints": {
+  "attrs": [
+   "baseTableCatalogName",
+   "baseTableName",
+   "baseTableSchemaName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "dropColumn": {
+  "attrs": [
+   "catalogName",
+   "columnName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [
+   "column"
+  ],
+  "open": false
+ },
+ "dropDefaultValue": {
+  "attrs": [
+   "catalogName",
+   "columnDataType",
+   "columnName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "dropForeignKeyConstraint": {
+  "attrs": [
+   "baseTableCatalogName",
+   "baseTableName",
+   "baseTableSchemaName",
+   "constraintName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "dropIndex": {
+  "attrs": [
+   "associatedWith",
+   "catalogName",
+   "indexName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "dropNotNullConstraint": {
+  "attrs": [
+   "catalogName",
+   "columnDataType",
+   "columnName",
+   "constraintName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "dropPrimaryKey": {
+  "attrs": [
+   "catalogName",
+   "constraintName",
+   "dropIndex",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "dropProcedure": {
+  "attrs": [
+   "catalogName",
+   "procedureName",
+   "schemaName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "dropSequence": {
+  "attrs": [
+   "cacheSize",
+   "catalogName",
+   "cycle",
+   "dataType",
+   "incrementBy",
+   "maxValue",
+   "minValue",
+   "ordered",
+   "schemaName",
+   "sequenceName",
+   "startValue"
+  ],
+  "children": [],
+  "open": true
+ },
+ "dropTable": {
+  "attrs": [
+   "cascadeConstraints",
+   "catalogName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": true
+ },
+ "dropUniqueConstraint": {
+  "attrs": [
+   "catalogName",
+   "constraintName",
+   "schemaName",
+   "tableName",
+   "uniqueColumns"
+  ],
+  "children": [],
+  "open": false
+ },
+ "dropView": {
+  "attrs": [
+   "catalogName",
+   "ifExists",
+   "schemaName",
+   "viewName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "empty": {
+  "attrs": [],
+  "children": [],
+  "open": false
+ },
+ "executeCommand": {
+  "attrs": [
+   "executable",
+   "os",
+   "timeout"
+  ],
+  "children": [
+   "arg"
+  ],
+  "open": false
+ },
+ "expectedQuotingStrategy": {
+  "attrs": [
+   "strategy"
+  ],
+  "children": [],
+  "open": false
+ },
+ "foreignKeyConstraintExists": {
+  "attrs": [
+   "catalogName",
+   "foreignKeyName",
+   "foreignKeyTableName",
+   "schemaName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "include": {
+  "attrs": [
+   "author",
+   "context",
+   "contextFilter",
+   "created",
+   "errorIfMissing",
+   "file",
+   "id",
+   "ignore",
+   "labels",
+   "logicalFilePath",
+   "relativeToChangelogFile"
+  ],
+  "children": [],
+  "open": false
+ },
+ "includeAll": {
+  "attrs": [
+   "context",
+   "contextFilter",
+   "endsWithFilter",
+   "errorIfMissingOrEmpty",
+   "filter",
+   "ignore",
+   "labels",
+   "logicalFilePath",
+   "maxDepth",
+   "minDepth",
+   "path",
+   "relativeToChangelogFile",
+   "resourceComparator"
+  ],
+  "children": [],
+  "open": false
+ },
+ "indexExists": {
+  "attrs": [
+   "catalogName",
+   "columnNames",
+   "indexName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "insert": {
+  "attrs": [
+   "catalogName",
+   "dbms",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [
+   "column"
+  ],
+  "open": false
+ },
+ "loadData": {
+  "attrs": [
+   "catalogName",
+   "commentLineStartsWith",
+   "encoding",
+   "file",
+   "quotchar",
+   "relativeToChangelogFile",
+   "schemaName",
+   "separator",
+   "tableName",
+   "usePreparedStatements"
+  ],
+  "children": [
+   "column"
+  ],
+  "open": false
+ },
+ "loadUpdateData": {
+  "attrs": [
+   "catalogName",
+   "commentLineStartsWith",
+   "encoding",
+   "file",
+   "onlyUpdate",
+   "primaryKey",
+   "quotchar",
+   "relativeToChangelogFile",
+   "schemaName",
+   "separator",
+   "tableName",
+   "usePreparedStatements"
+  ],
+  "children": [
+   "column"
+  ],
+  "open": false
+ },
+ "mergeColumns": {
+  "attrs": [
+   "catalogName",
+   "column1Name",
+   "column2Name",
+   "finalColumnName",
+   "finalColumnType",
+   "joinString",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "modifyChangeSets": {
+  "attrs": [
+   "endDelimiter",
+   "failOnError",
+   "runWith",
+   "runWithSpoolFile",
+   "stripComments"
+  ],
+  "children": [
+   "include",
+   "includeAll"
+  ],
+  "open": false
+ },
+ "modifyDataType": {
+  "attrs": [
+   "catalogName",
+   "columnName",
+   "newDataType",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "modifySql": {
+  "attrs": [
+   "applyToRollback",
+   "context",
+   "contextFilter",
+   "dbms",
+   "labels"
+  ],
+  "children": [
+   "append",
+   "prepend",
+   "regExpReplace",
+   "replace"
+  ],
+  "open": false
+ },
+ "not": {
+  "attrs": [],
+  "children": [
+   "and",
+   "changeLogPropertyDefined",
+   "changeSetExecuted",
+   "columnExists",
+   "customPrecondition",
+   "dbms",
+   "expectedQuotingStrategy",
+   "foreignKeyConstraintExists",
+   "indexExists",
+   "not",
+   "or",
+   "primaryKeyExists",
+   "rowCount",
+   "runningAs",
+   "sequenceExists",
+   "sqlCheck",
+   "tableExists",
+   "tableIsEmpty",
+   "uniqueConstraintExists",
+   "viewExists"
+  ],
+  "open": true
+ },
+ "or": {
+  "attrs": [],
+  "children": [
+   "and",
+   "changeLogPropertyDefined",
+   "changeSetExecuted",
+   "columnExists",
+   "customPrecondition",
+   "dbms",
+   "expectedQuotingStrategy",
+   "foreignKeyConstraintExists",
+   "indexExists",
+   "not",
+   "or",
+   "primaryKeyExists",
+   "rowCount",
+   "runningAs",
+   "sequenceExists",
+   "sqlCheck",
+   "tableExists",
+   "tableIsEmpty",
+   "uniqueConstraintExists",
+   "viewExists"
+  ],
+  "open": true
+ },
+ "output": {
+  "attrs": [
+   "target"
+  ],
+  "children": [],
+  "open": false
+ },
+ "param": {
+  "attrs": [
+   "name",
+   "value",
+   "valueBoolean",
+   "valueComputed",
+   "valueDate",
+   "valueNumeric",
+   "valueSequenceCurrent",
+   "valueSequenceNext"
+  ],
+  "children": [],
+  "open": false
+ },
+ "preConditions": {
+  "attrs": [
+   "onError",
+   "onErrorMessage",
+   "onFail",
+   "onFailMessage",
+   "onSqlOutput"
+  ],
+  "children": [
+   "and",
+   "changeLogPropertyDefined",
+   "changeSetExecuted",
+   "columnExists",
+   "customPrecondition",
+   "dbms",
+   "expectedQuotingStrategy",
+   "foreignKeyConstraintExists",
+   "indexExists",
+   "not",
+   "or",
+   "primaryKeyExists",
+   "rowCount",
+   "runningAs",
+   "sequenceExists",
+   "sqlCheck",
+   "tableExists",
+   "tableIsEmpty",
+   "uniqueConstraintExists",
+   "viewExists"
+  ],
+  "open": true
+ },
+ "prepend": {
+  "attrs": [
+   "value"
+  ],
+  "children": [],
+  "open": false
+ },
+ "primaryKeyExists": {
+  "attrs": [
+   "catalogName",
+   "primaryKeyName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "property": {
+  "attrs": [
+   "context",
+   "contextFilter",
+   "dbms",
+   "errorIfMissing",
+   "file",
+   "global",
+   "labels",
+   "name",
+   "relativeToChangelogFile",
+   "target",
+   "value"
+  ],
+  "children": [],
+  "open": false
+ },
+ "regExpReplace": {
+  "attrs": [
+   "replace",
+   "with"
+  ],
+  "children": [],
+  "open": false
+ },
+ "removeChangeSetProperty": {
+  "attrs": [
+   "change",
+   "dbms",
+   "remove"
+  ],
+  "children": [],
+  "open": false
+ },
+ "renameColumn": {
+  "attrs": [
+   "catalogName",
+   "columnDataType",
+   "newColumnName",
+   "oldColumnName",
+   "remarks",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "renameSequence": {
+  "attrs": [
+   "catalogName",
+   "newSequenceName",
+   "oldSequenceName",
+   "schemaName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "renameTable": {
+  "attrs": [
+   "catalogName",
+   "newTableName",
+   "oldTableName",
+   "schemaName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "renameView": {
+  "attrs": [
+   "catalogName",
+   "newViewName",
+   "oldViewName",
+   "schemaName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "replace": {
+  "attrs": [
+   "replace",
+   "with"
+  ],
+  "children": [],
+  "open": false
+ },
+ "rollback": {
+  "attrs": [
+   "changeSetAuthor",
+   "changeSetId",
+   "changeSetPath"
+  ],
+  "children": [
+   "addAutoIncrement",
+   "addColumn",
+   "addDefaultValue",
+   "addForeignKeyConstraint",
+   "addLookupTable",
+   "addNotNullConstraint",
+   "addPrimaryKey",
+   "addUniqueConstraint",
+   "alterSequence",
+   "comment",
+   "createIndex",
+   "createProcedure",
+   "createSequence",
+   "createTable",
+   "createView",
+   "customChange",
+   "delete",
+   "dropAllForeignKeyConstraints",
+   "dropColumn",
+   "dropDefaultValue",
+   "dropForeignKeyConstraint",
+   "dropIndex",
+   "dropNotNullConstraint",
+   "dropPrimaryKey",
+   "dropProcedure",
+   "dropSequence",
+   "dropTable",
+   "dropUniqueConstraint",
+   "dropView",
+   "empty",
+   "executeCommand",
+   "insert",
+   "loadData",
+   "loadUpdateData",
+   "mergeColumns",
+   "modifyDataType",
+   "output",
+   "renameColumn",
+   "renameSequence",
+   "renameTable",
+   "renameView",
+   "rollback",
+   "setColumnRemarks",
+   "setTableRemarks",
+   "sql",
+   "sqlFile",
+   "stop",
+   "update"
+  ],
+  "open": true
+ },
+ "rowCount": {
+  "attrs": [
+   "catalogName",
+   "expectedRows",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "runningAs": {
+  "attrs": [
+   "username"
+  ],
+  "children": [],
+  "open": false
+ },
+ "sequenceExists": {
+  "attrs": [
+   "catalogName",
+   "schemaName",
+   "sequenceName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "setColumnRemarks": {
+  "attrs": [
+   "catalogName",
+   "columnDataType",
+   "columnName",
+   "columnParentType",
+   "remarks",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "setTableRemarks": {
+  "attrs": [
+   "catalogName",
+   "remarks",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "sql": {
+  "attrs": [
+   "dbms",
+   "endDelimiter",
+   "splitStatements",
+   "stripComments"
+  ],
+  "children": [
+   "comment"
+  ],
+  "open": false
+ },
+ "sqlCheck": {
+  "attrs": [
+   "expectedResult"
+  ],
+  "children": [],
+  "open": false
+ },
+ "sqlFile": {
+  "attrs": [
+   "dbms",
+   "encoding",
+   "endDelimiter",
+   "path",
+   "relativeToChangelogFile",
+   "splitStatements",
+   "stripComments"
+  ],
+  "children": [],
+  "open": false
+ },
+ "stop": {
+  "attrs": [],
+  "children": [],
+  "open": false
+ },
+ "tableExists": {
+  "attrs": [
+   "catalogName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "tableIsEmpty": {
+  "attrs": [
+   "catalogName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "tagDatabase": {
+  "attrs": [
+   "keepTagOnRollback",
+   "tag"
+  ],
+  "children": [],
+  "open": false
+ },
+ "uniqueConstraintExists": {
+  "attrs": [
+   "catalogName",
+   "columnNames",
+   "constraintName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "update": {
+  "attrs": [
+   "catalogName",
+   "schemaName",
+   "tableName"
+  ],
+  "children": [
+   "column",
+   "where",
+   "whereParams"
+  ],
+  "open": false
+ },
+ "validCheckSum": {
+  "attrs": [],
+  "children": [
+   "comment"
+  ],
+  "open": false
+ },
+ "viewExists": {
+  "attrs": [
+   "catalogName",
+   "schemaName",
+   "viewName"
+  ],
+  "children": [],
+  "open": false
+ },
+ "where": {
+  "attrs": [],
+  "children": [],
+  "open": false
+ },
+ "whereParams": {
+  "attrs": [],
+  "children": [
+   "param"
+  ],
+  "open": false
+ }
+}

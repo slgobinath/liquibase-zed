@@ -1,0 +1,32 @@
+id = "liquibase"
+name = "Liquibase"
+version = "0.1.0"
+schema_version = 1
+description = "Liquibase changelog support: syntax highlighting and language servers for XML, YAML and formatted SQL changelogs."
+repository = "https://github.com/slgobinath/liquibase-zed"
+authors = ["Gobinath"]
+
+[grammars.xml]
+repository = "https://github.com/slgobinath/liquibase-zed"
+rev = "5000ae8f22d11fbe93939b05c1e37cf21117162d"
+path = "xml"
+
+[grammars.yaml]
+repository = "https://github.com/slgobinath/liquibase-zed"
+rev = "baff0b51c64ef6a1fb1f8390f3ad6015b83ec13a"
+
+[grammars.sql]
+repository = "https://github.com/slgobinath/liquibase-zed"
+rev = "851e9cb257ba7c66cc8c14214a31c44d2f1e954e"
+
+[language_servers.liquibase-xml-lsp]
+name = "LemMinX (Liquibase XSD)"
+languages = ["Liquibase XML"]
+
+[language_servers.liquibase-yaml-lsp]
+name = "YAML Language Server (Liquibase schema)"
+languages = ["Liquibase YAML"]
+
+[language_servers.liquibase-lsp]
+name = "Liquibase (includes, references, diagnostics)"
+languages = ["Liquibase XML", "Liquibase YAML"]

@@ -1,0 +1,9 @@
+name = "Liquibase SQL"
+grammar = "sql"
+path_suffixes = ["changelog.sql"]
+line_comments = ["-- "]
+brackets = [
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "'", end = "'", close = true, newline = false },
+    { start = "\"", end = "\"", close = true, newline = false },
+]
