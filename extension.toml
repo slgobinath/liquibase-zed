@@ -7,16 +7,16 @@ repository = "https://github.com/slgobinath/liquibase-zed"
 authors = ["Gobinath"]
 
 [grammars.xml]
-repository = "https://github.com/slgobinath/liquibase-zed"
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-xml"
 rev = "5000ae8f22d11fbe93939b05c1e37cf21117162d"
 path = "xml"
 
 [grammars.yaml]
-repository = "https://github.com/slgobinath/liquibase-zed"
+repository = "https://github.com/zed-industries/tree-sitter-yaml"
 rev = "baff0b51c64ef6a1fb1f8390f3ad6015b83ec13a"
 
 [grammars.sql]
-repository = "https://github.com/slgobinath/liquibase-zed"
+repository = "https://github.com/DerekStride/tree-sitter-sql"
 rev = "851e9cb257ba7c66cc8c14214a31c44d2f1e954e"
 
 [language_servers.liquibase-xml-lsp]
